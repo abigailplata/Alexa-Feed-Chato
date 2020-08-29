@@ -36,10 +36,10 @@ var now = moment();
 //Make sure to enclose your value in quotes, like this: const APP_ID = 'amzn1.ask.skill.-';
 const APP_ID = '-';
 
-const SKILL_NAME = 'Feed Toto';
-const GET_FEED_MESSAGE = "OK. Toto will be fed ";
-const HELP_MESSAGE = 'You can say feed toto now, or, every 3 hours...Let me know.';
-const HELP_REPROMPT = 'Should I feed Toto now?';
+const SKILL_NAME = 'Feed Chato';
+const GET_FEED_MESSAGE = "OK. Chato will be fed ";
+const HELP_MESSAGE = 'You can say feed chato now, or, every 3 hours...Let me know.';
+const HELP_REPROMPT = 'Should I feed Chato now?';
 const STOP_MESSAGE = 'Goodbye!';
 
 //=========================================================================================================================================
@@ -70,7 +70,7 @@ exports.handler = function(event, context, callback) {
 
 const handlers = {
     'LaunchRequest': function () {
-        this.emit('feedtoto');
+        this.emit('chato');
     },
     'PersonIntent': function () {
 
@@ -78,7 +78,7 @@ const handlers = {
     'putObjectToS3': function () {
         console.log("putObjectToS3 handler");
     },
-    'feedtoto': function () {
+    'feedchato': function () {
         var feedResponseSpeak = "";
         var retText = "";
 

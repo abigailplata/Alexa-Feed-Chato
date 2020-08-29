@@ -202,7 +202,7 @@ void loop(void)
   Serial.print(F("[Recv] ")); Serial.println(bleBuffer);
   if(bleBuffer == releaseLatch) {
 
-    feedToto();
+    feedchato();
 
     //send ACK back to Android    
     // Check for user input
@@ -234,8 +234,8 @@ void loop(void)
 //      t.stop(regularFeedEvent);
 //      if(feedInt != 0) {
 //        Serial.println("regular feeding set.");
-////        int tickEvent = t.every(2000, feedTotoWrapper, NULL);
-//        regularFeedEvent = t.every(feedInt * 1000, feedToto, NULL);
+////        int tickEvent = t.every(2000, feedchatoWrapper, NULL);
+//        regularFeedEvent = t.every(feedInt * 1000, feedchato, NULL);
 //      } else {
 //          Serial.println("regular feeding canceled."); 
 //          digitalWrite(13, LOW);
@@ -322,7 +322,7 @@ void setRegularFeeding(long feedInt_) {
   t.stop(regularFeedEvent);
   if(feedInt_ != 0) {
     Serial.println("regular feeding set.");
-    regularFeedEvent = t.every(feedInt_ * 1000, feedToto, NULL);
+    regularFeedEvent = t.every(feedInt_ * 1000, feedchato, NULL);
   } else {
       Serial.println("regular feeding canceled."); 
       digitalWrite(13, LOW);
@@ -331,7 +331,7 @@ void setRegularFeeding(long feedInt_) {
   
 }  
 
-void feedTotoLoop(int x) {
+void feedchatoLoop(int x) {
   for(int i = 0; i < x; i++) {
       digitalWrite(13, HIGH);
       delay(100);
@@ -345,9 +345,9 @@ void feedTotoLoop(int x) {
   }
 
 //one time feed
-void feedToto() {
+void feedchato() {
   //shake things
-  feedTotoLoop(releaseInt/1000);
+  feedchatoLoop(releaseInt/1000);
   
   //open up
 //  // pulls solenoid
@@ -358,12 +358,12 @@ void feedToto() {
 //  digitalWrite(13, LOW);
 
   //OR
-//  Serial.println("feedtoto1");
+//  Serial.println("feedchato1");
 //  t.pulse(13, 1000, HIGH);
-//  Serial.println("feedtoto2");
+//  Serial.println("feedchato2");
   
   }
 
-static void feedTotoWrapper(void* context) {
- feedToto();
+static void feedchatoWrapper(void* context) {
+ feedchato();
 }
