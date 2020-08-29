@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE2F6EBC24F9ED2100CAEA69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2F6EBB24F9ED2100CAEA69 /* AppDelegate.swift */; };
+		EE2F6EBE24F9ED2100CAEA69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2F6EBD24F9ED2100CAEA69 /* ViewController.swift */; };
+		EE2F6EC124F9ED2100CAEA69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2F6EBF24F9ED2100CAEA69 /* Main.storyboard */; };
+		EE2F6EC324F9ED2300CAEA69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2F6EC224F9ED2300CAEA69 /* Assets.xcassets */; };
+		EE2F6EC624F9ED2300CAEA69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2F6EC424F9ED2300CAEA69 /* LaunchScreen.storyboard */; };
+		EE2F6ED124F9ED2300CAEA69 /* Alexa_Feed_ChatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2F6ED024F9ED2300CAEA69 /* Alexa_Feed_ChatoTests.swift */; };
+		EE2F6EDC24F9ED2300CAEA69 /* Alexa_Feed_ChatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2F6EDB24F9ED2300CAEA69 /* Alexa_Feed_ChatoUITests.swift */; };
+		EE2F6EEC24F9ED8300CAEA69 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2F6EEB24F9ED8300CAEA69 /* ExternalAccessory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE2F6ECD24F9ED2300CAEA69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2F6EB024F9ED2100CAEA69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2F6EB724F9ED2100CAEA69;
+			remoteInfo = "Alexa-Feed-Chato";
+		};
+		EE2F6ED824F9ED2300CAEA69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2F6EB024F9ED2100CAEA69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2F6EB724F9ED2100CAEA69;
+			remoteInfo = "Alexa-Feed-Chato";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE2F6EB824F9ED2100CAEA69 /* Alexa-Feed-Chato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alexa-Feed-Chato.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2F6EBB24F9ED2100CAEA69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE2F6EBD24F9ED2100CAEA69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE2F6EC024F9ED2100CAEA69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE2F6EC224F9ED2300CAEA69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE2F6EC524F9ED2300CAEA69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE2F6EC724F9ED2300CAEA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2F6ECC24F9ED2300CAEA69 /* Alexa-Feed-ChatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alexa-Feed-ChatoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2F6ED024F9ED2300CAEA69 /* Alexa_Feed_ChatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alexa_Feed_ChatoTests.swift; sourceTree = "<group>"; };
+		EE2F6ED224F9ED2300CAEA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2F6ED724F9ED2300CAEA69 /* Alexa-Feed-ChatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alexa-Feed-ChatoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2F6EDB24F9ED2300CAEA69 /* Alexa_Feed_ChatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alexa_Feed_ChatoUITests.swift; sourceTree = "<group>"; };
+		EE2F6EDD24F9ED2300CAEA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2F6EE924F9ED7E00CAEA69 /* Alexa-Feed-Chato.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Alexa-Feed-Chato.entitlements"; sourceTree = "<group>"; };
+		EE2F6EEB24F9ED8300CAEA69 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE2F6EB524F9ED2100CAEA69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F6EEC24F9ED8300CAEA69 /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2F6EC924F9ED2300CAEA69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2F6ED424F9ED2300CAEA69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE2F6EAF24F9ED2100CAEA69 = {
+			isa = PBXGroup;
+			children = (
+				EE2F6EBA24F9ED2100CAEA69 /* Alexa-Feed-Chato */,
+				EE2F6ECF24F9ED2300CAEA69 /* Alexa-Feed-ChatoTests */,
+				EE2F6EDA24F9ED2300CAEA69 /* Alexa-Feed-ChatoUITests */,
+				EE2F6EB924F9ED2100CAEA69 /* Products */,
+				EE2F6EEA24F9ED8300CAEA69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2F6EB924F9ED2100CAEA69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F6EB824F9ED2100CAEA69 /* Alexa-Feed-Chato.app */,
+				EE2F6ECC24F9ED2300CAEA69 /* Alexa-Feed-ChatoTests.xctest */,
+				EE2F6ED724F9ED2300CAEA69 /* Alexa-Feed-ChatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE2F6EBA24F9ED2100CAEA69 /* Alexa-Feed-Chato */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F6EE924F9ED7E00CAEA69 /* Alexa-Feed-Chato.entitlements */,
+				EE2F6EBB24F9ED2100CAEA69 /* AppDelegate.swift */,
+				EE2F6EBD24F9ED2100CAEA69 /* ViewController.swift */,
+				EE2F6EBF24F9ED2100CAEA69 /* Main.storyboard */,
+				EE2F6EC224F9ED2300CAEA69 /* Assets.xcassets */,
+				EE2F6EC424F9ED2300CAEA69 /* LaunchScreen.storyboard */,
+				EE2F6EC724F9ED2300CAEA69 /* Info.plist */,
+			);
+			path = "Alexa-Feed-Chato";
+			sourceTree = "<group>";
+		};
+		EE2F6ECF24F9ED2300CAEA69 /* Alexa-Feed-ChatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F6ED024F9ED2300CAEA69 /* Alexa_Feed_ChatoTests.swift */,
+				EE2F6ED224F9ED2300CAEA69 /* Info.plist */,
+			);
+			path = "Alexa-Feed-ChatoTests";
+			sourceTree = "<group>";
+		};
+		EE2F6EDA24F9ED2300CAEA69 /* Alexa-Feed-ChatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F6EDB24F9ED2300CAEA69 /* Alexa_Feed_ChatoUITests.swift */,
+				EE2F6EDD24F9ED2300CAEA69 /* Info.plist */,
+			);
+			path = "Alexa-Feed-ChatoUITests";
+			sourceTree = "<group>";
+		};
+		EE2F6EEA24F9ED8300CAEA69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F6EEB24F9ED8300CAEA69 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2F6EB724F9ED2100CAEA69 /* Alexa-Feed-Chato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2F6EE024F9ED2300CAEA69 /* Build configuration list for PBXNativeTarget "Alexa-Feed-Chato" */;
+			buildPhases = (
+				EE2F6EB424F9ED2100CAEA69 /* Sources */,
+				EE2F6EB524F9ED2100CAEA69 /* Frameworks */,
+				EE2F6EB624F9ED2100CAEA69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alexa-Feed-Chato";
+			productName = "Alexa-Feed-Chato";
+			productReference = EE2F6EB824F9ED2100CAEA69 /* Alexa-Feed-Chato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE2F6ECB24F9ED2300CAEA69 /* Alexa-Feed-ChatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2F6EE324F9ED2300CAEA69 /* Build configuration list for PBXNativeTarget "Alexa-Feed-ChatoTests" */;
+			buildPhases = (
+				EE2F6EC824F9ED2300CAEA69 /* Sources */,
+				EE2F6EC924F9ED2300CAEA69 /* Frameworks */,
+				EE2F6ECA24F9ED2300CAEA69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2F6ECE24F9ED2300CAEA69 /* PBXTargetDependency */,
+			);
+			name = "Alexa-Feed-ChatoTests";
+			productName = "Alexa-Feed-ChatoTests";
+			productReference = EE2F6ECC24F9ED2300CAEA69 /* Alexa-Feed-ChatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE2F6ED624F9ED2300CAEA69 /* Alexa-Feed-ChatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2F6EE624F9ED2300CAEA69 /* Build configuration list for PBXNativeTarget "Alexa-Feed-ChatoUITests" */;
+			buildPhases = (
+				EE2F6ED324F9ED2300CAEA69 /* Sources */,
+				EE2F6ED424F9ED2300CAEA69 /* Frameworks */,
+				EE2F6ED524F9ED2300CAEA69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2F6ED924F9ED2300CAEA69 /* PBXTargetDependency */,
+			);
+			name = "Alexa-Feed-ChatoUITests";
+			productName = "Alexa-Feed-ChatoUITests";
+			productReference = EE2F6ED724F9ED2300CAEA69 /* Alexa-Feed-ChatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE2F6EB024F9ED2100CAEA69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Abigail Plata";
+				TargetAttributes = {
+					EE2F6EB724F9ED2100CAEA69 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
+					};
+					EE2F6ECB24F9ED2300CAEA69 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = EE2F6EB724F9ED2100CAEA69;
+					};
+					EE2F6ED624F9ED2300CAEA69 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = EE2F6EB724F9ED2100CAEA69;
+					};
+				};
+			};
+			buildConfigurationList = EE2F6EB324F9ED2100CAEA69 /* Build configuration list for PBXProject "Alexa-Feed-Chato" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE2F6EAF24F9ED2100CAEA69;
+			productRefGroup = EE2F6EB924F9ED2100CAEA69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE2F6EB724F9ED2100CAEA69 /* Alexa-Feed-Chato */,
+				EE2F6ECB24F9ED2300CAEA69 /* Alexa-Feed-ChatoTests */,
+				EE2F6ED624F9ED2300CAEA69 /* Alexa-Feed-ChatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE2F6EB624F9ED2100CAEA69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F6EC624F9ED2300CAEA69 /* LaunchScreen.storyboard in Resources */,
+				EE2F6EC324F9ED2300CAEA69 /* Assets.xcassets in Resources */,
+				EE2F6EC124F9ED2100CAEA69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2F6ECA24F9ED2300CAEA69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2F6ED524F9ED2300CAEA69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE2F6EB424F9ED2100CAEA69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F6EBE24F9ED2100CAEA69 /* ViewController.swift in Sources */,
+				EE2F6EBC24F9ED2100CAEA69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2F6EC824F9ED2300CAEA69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F6ED124F9ED2300CAEA69 /* Alexa_Feed_ChatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2F6ED324F9ED2300CAEA69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F6EDC24F9ED2300CAEA69 /* Alexa_Feed_ChatoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE2F6ECE24F9ED2300CAEA69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2F6EB724F9ED2100CAEA69 /* Alexa-Feed-Chato */;
+			targetProxy = EE2F6ECD24F9ED2300CAEA69 /* PBXContainerItemProxy */;
+		};
+		EE2F6ED924F9ED2300CAEA69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2F6EB724F9ED2100CAEA69 /* Alexa-Feed-Chato */;
+			targetProxy = EE2F6ED824F9ED2300CAEA69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE2F6EBF24F9ED2100CAEA69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2F6EC024F9ED2100CAEA69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE2F6EC424F9ED2300CAEA69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2F6EC524F9ED2300CAEA69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE2F6EDE24F9ED2300CAEA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE2F6EDF24F9ED2300CAEA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE2F6EE124F9ED2300CAEA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Alexa-Feed-Chato/Alexa-Feed-Chato.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GJP6NKHH2;
+				INFOPLIST_FILE = "Alexa-Feed-Chato/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "APlata.Alexa-Feed-Chato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE2F6EE224F9ED2300CAEA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Alexa-Feed-Chato/Alexa-Feed-Chato.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GJP6NKHH2;
+				INFOPLIST_FILE = "Alexa-Feed-Chato/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "APlata.Alexa-Feed-Chato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE2F6EE424F9ED2300CAEA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alexa-Feed-ChatoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "APlata.Alexa-Feed-ChatoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alexa-Feed-Chato.app/Alexa-Feed-Chato";
+			};
+			name = Debug;
+		};
+		EE2F6EE524F9ED2300CAEA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alexa-Feed-ChatoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "APlata.Alexa-Feed-ChatoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alexa-Feed-Chato.app/Alexa-Feed-Chato";
+			};
+			name = Release;
+		};
+		EE2F6EE724F9ED2300CAEA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alexa-Feed-ChatoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "APlata.Alexa-Feed-ChatoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alexa-Feed-Chato";
+			};
+			name = Debug;
+		};
+		EE2F6EE824F9ED2300CAEA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alexa-Feed-ChatoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "APlata.Alexa-Feed-ChatoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alexa-Feed-Chato";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE2F6EB324F9ED2100CAEA69 /* Build configuration list for PBXProject "Alexa-Feed-Chato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2F6EDE24F9ED2300CAEA69 /* Debug */,
+				EE2F6EDF24F9ED2300CAEA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2F6EE024F9ED2300CAEA69 /* Build configuration list for PBXNativeTarget "Alexa-Feed-Chato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2F6EE124F9ED2300CAEA69 /* Debug */,
+				EE2F6EE224F9ED2300CAEA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2F6EE324F9ED2300CAEA69 /* Build configuration list for PBXNativeTarget "Alexa-Feed-ChatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2F6EE424F9ED2300CAEA69 /* Debug */,
+				EE2F6EE524F9ED2300CAEA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2F6EE624F9ED2300CAEA69 /* Build configuration list for PBXNativeTarget "Alexa-Feed-ChatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2F6EE724F9ED2300CAEA69 /* Debug */,
+				EE2F6EE824F9ED2300CAEA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE2F6EB024F9ED2100CAEA69 /* Project object */;
+}
