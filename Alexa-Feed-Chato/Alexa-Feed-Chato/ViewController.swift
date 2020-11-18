@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var FeedSizeNum: UILabel!
     @IBOutlet weak var FeedIntervalNum: UILabel!
-    
+
+   
     @IBAction func FeedSize(_ sender: UISlider){
         FeedSizeNum.text = String( Int(roundf(sender.value / 5.0) * 5.0))
     }

@@ -14,7 +14,6 @@
 		EE2F6EC624F9ED2300CAEA69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2F6EC424F9ED2300CAEA69 /* LaunchScreen.storyboard */; };
 		EE2F6ED124F9ED2300CAEA69 /* Alexa_Feed_ChatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2F6ED024F9ED2300CAEA69 /* Alexa_Feed_ChatoTests.swift */; };
 		EE2F6EDC24F9ED2300CAEA69 /* Alexa_Feed_ChatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2F6EDB24F9ED2300CAEA69 /* Alexa_Feed_ChatoUITests.swift */; };
-		EE2F6EEC24F9ED8300CAEA69 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2F6EEB24F9ED8300CAEA69 /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +48,6 @@
 		EE2F6EDB24F9ED2300CAEA69 /* Alexa_Feed_ChatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alexa_Feed_ChatoUITests.swift; sourceTree = "<group>"; };
 		EE2F6EDD24F9ED2300CAEA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE2F6EE924F9ED7E00CAEA69 /* Alexa-Feed-Chato.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Alexa-Feed-Chato.entitlements"; sourceTree = "<group>"; };
-		EE2F6EEB24F9ED8300CAEA69 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2F6EEC24F9ED8300CAEA69 /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +131,6 @@
 		EE2F6EEA24F9ED8300CAEA69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE2F6EEB24F9ED8300CAEA69 /* ExternalAccessory.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,7 +208,7 @@
 								enabled = 1;
 							};
 							com.apple.WAC = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
